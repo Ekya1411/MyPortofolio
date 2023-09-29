@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.atas {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(lightblue, lightblue, whitesmoke);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    cursor: pointer;
+}
+.folio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8% 0 3%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5PX 25px;
+}
+nav ul li a {
+    text-decoration : none;
+    color: black;
+}
+nav ul li a:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+
+
+.NamaHome{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.Hello:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.MyNameIs{
+    font-size: 20px;
+    }
+.MyNameIs:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.EkyaMuh{
+font-size: 25px;
+}
+.EkyaMuh:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.ImA:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.CollegeStudent:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+
+.FotoHome{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 23.5%;
+    right: 15%;
+}
+.Motto{
+    position: absolute;
+    top: 65%;
+    right: 17%;
+    transform: skew(345deg);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Motto:hover{
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+.PageTwo{
+    width: 100%;
+    height: 385vh;
+    background: linear-gradient(whitesmoke, whitesmoke);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.JudulPageTwo{
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    left: 40%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.PenjelasanSingkat{
+    position: absolute;
+    top: 115%;
+    left: 36.5%;
+    text-align: center;
+    font-size: medium;
+}
+
+.PspMalang{
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue;
+}
+.TextPspMalang{
+    position: absolute;
+    top: 182%;
+    left: 14%;
+    text-align: center;
+    font-size: medium;
+}
+.PSsmadaleft{
+    position: absolute;
+    top: 125%;
+    right: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextPSsmadaleft{
+    position: absolute;
+    top: 182%;
+    right: 12%;
+    text-align: center;
+    font-size: medium;
+}
+
+
+.PSsmada{
+    position: absolute;
+    top: 193%;
+    left: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextPSsmada{
+    position: absolute;
+    top: 250%;
+    left: 13.5%;
+    text-align: center;
+    font-size: medium;
+}
+.PracticeForKindergartensGraduation{
+    position: absolute;
+    top: 193%;
+    right: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.PracKindergarten{
+    position: absolute;
+    top: 250%;
+    right: 9%;
+    text-align: center;
+    font-size: medium;
+}
+
+.BaswakaChoir{
+    position: absolute;
+    top: 261%;
+    left: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextBaswakaChoir{
+    position: absolute;
+    top: 318%;
+    left: 13%;
+    text-align: center;
+    font-size: medium;
+}
+.LombaPramukaSmaga{
+    position: absolute;
+    top: 261%;
+    right: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextLombaPramukaSmaga{
+    position: absolute;
+    top: 318%;
+    right: 12%;
+    text-align: center;
+    font-size: medium;
+}
+
+.LombaKemahSantri{
+    position: absolute;
+    top: 329%;
+    left: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextLombaKemahSantri{
+    position: absolute;
+    top: 386%;
+    left: 9%;
+    text-align: center;
+    font-size: medium;
+}
+.WhatWeGotInKemah{
+    position: absolute;
+    top: 329%;
+    right: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextWhatWeGotInKemah{
+    position: absolute;
+    top: 386%;
+    right: 17.5%;
+    text-align: center;
+    font-size: medium;
+}
+
+.Porseni{
+    position: absolute;
+    top: 397%;
+    left: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextPorseni{
+    position: absolute;
+    top: 454%;
+    left: 10%;
+    text-align: center;
+    font-size: medium;
+}
+.PMIIMengajar{
+    position: absolute;
+    top: 397%;
+    right: 10%;
+    width: 470px;
+    height: 352px;
+    border: 10px solid lightblue ;
+}
+.TextPMIIMengajar{
+    position: absolute;
+    top: 454%;
+    right: 13%;
+    text-align: center;
+    font-size: medium;
+}
+
+.Piano{
+    position: absolute;
+    top: 470%;
+    right: 11%;
+    text-align: center;
+    font-size: medium;
+}
+
+.SocialMedia{
+    width: 100%;
+    background: linear-gradient( lightblue, lightblue);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.JudulSocialMedia{
+    position: absolute;
+    top: 487%;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}  
+.LogoWA{
+    position: absolute;
+    top: 495%;
+    font-size: 50px;
+    justify-content: center;
+
+}
+.LogoInstagram{
+    position: absolute;
+    top: 495%;
+    font-size: 50px;
+    right: 44%;
+}
+.LogoYoutube{
+    position: absolute;
+    top: 495%;
+    font-size: 50px;
+    right: 38.5%;
+}
+.LogoGithub{
+    position: absolute;
+    top: 495%;
+    font-size: 50px;
+    left: 39%;
+}
+.LogoLinkedin{
+    position: absolute;
+    top: 495%;
+    font-size: 50px;
+    left: 44%;
+}
+
+#Section2{
+    scroll-margin-top: 200%;
+}
